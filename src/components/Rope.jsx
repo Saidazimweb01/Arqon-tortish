@@ -1,4 +1,5 @@
 
+import rope from "../assets/icon.mp4"
 export default function Rope() {
 
   return (
@@ -7,7 +8,7 @@ export default function Rope() {
         className="rope"
         style={{ transform: `translateX(0px)` }}
       >
-        <video autoPlay loop muted src="../../public/icon.mp4"></video>
+        <video autoPlay loop muted src={rope}></video>
       </div>
     </div>
   );
